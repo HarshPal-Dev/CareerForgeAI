@@ -1,5 +1,4 @@
-
-# AI Career Coach
+# CareerForgeAI
 
 A full-stack AI-powered career coaching application built with **Next.js**, **Neon DB**, **Tailwind CSS**, **Prisma**, **Inngest**, and **Shadcn UI**. This project provides a tutorial and implementation for creating a career coaching platform with AI: AI integration using the Gemini API and user authentication via Clerk.
 
@@ -7,7 +6,6 @@ A full-stack AI-powered career coaching application built with **Next.js**, **Ne
 🔥 **Tutorial**: [Insert tutorial link here, if available]
 
 ## Table of Contents
-
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Prerequisites](#prerequisites)
@@ -19,7 +17,6 @@ A full-stack AI-powered career coaching application built with **Next.js**, **Ne
 - [License](#license)
 
 ## Features
-
 - AI-powered career advice and coaching using the Gemini API.
 - User authentication and onboarding with Clerk.
 - Responsive UI built with Tailwind CSS and Shadcn UI components.
@@ -29,7 +26,6 @@ A full-stack AI-powered career coaching application built with **Next.js**, **Ne
 - Scalable Next.js frontend and backend.
 
 ## Tech Stack
-
 - **Frontend**: Next.js, Tailwind CSS, Shadcn UI
 - **Backend**: Next.js API routes, Prisma, Neon DB
 - **Authentication**: Clerk
@@ -38,9 +34,7 @@ A full-stack AI-powered career coaching application built with **Next.js**, **Ne
 - **Language**: TypeScript/JavaScript
 
 ## Prerequisites
-
 Before you begin, ensure you have the following installed:
-
 - [Node.js](https://nodejs.org/) (v16 or higher)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - A [Neon DB](https://neon.tech/) account for database setup
@@ -49,22 +43,17 @@ Before you begin, ensure you have the following installed:
 - An [Inngest](https://www.inngest.com/) account for background tasks
 
 ## Installation
-
 1. **Clone the repository**:
-
    ```bash
    git clone https://github.com/piyush-eon/ai-career-coach.git
    cd ai-career-coach
    ```
 
 2. **Install dependencies**:
-
    ```bash
    npm install
    ```
-
    or
-
    ```bash
    yarn install
    ```
@@ -77,9 +66,7 @@ Before you begin, ensure you have the following installed:
      ```
 
 ## Environment Variables
-
 Create a `.env` file in the project root and add the following variables:
-
 ```
 DATABASE_URL=<your-neon-db-url>
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your-clerk-publishable-key>
@@ -96,15 +83,11 @@ GEMINI_API_KEY=<your-gemini-api-key>
 - **GEMINI_API_KEY**: Get from your Google Cloud Gemini API setup.
 
 ## Running the Project
-
 1. **Start the development server**:
-
    ```bash
    npm run dev
    ```
-
    or
-
    ```bash
    yarn dev
    ```
@@ -123,7 +106,6 @@ GEMINI_API_KEY=<your-gemini-api-key>
    ```
 
 ## Project Structure
-
 ```
 ai-career-coach/
 ├── app/                    # Next.js app directory (pages, API routes)
@@ -139,9 +121,7 @@ ai-career-coach/
 ```
 
 ## Contributing
-
 Contributions are welcome! To contribute:
-
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature`).
 3. Make your changes and commit (`git commit -m "Add your feature"`).
@@ -151,9 +131,7 @@ Contributions are welcome! To contribute:
 Please ensure your code follows the project's coding standards and includes relevant tests.
 
 ## License
-
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-© 2025 [piyush-eon](https://github.com/piyush-eon)
