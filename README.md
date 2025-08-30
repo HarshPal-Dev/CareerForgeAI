@@ -22,8 +22,6 @@
   * [5. Run the Development Server](#-5-run-the-development-server)
   * [6. Start Contributing 💙](#-6-start-contributing-)
 
-* [🚀 Live Demo](#-live-demo)
-
 * [💡 Suggestions & Feedback](#-suggestions--feedback)
 
 * [💬 Support & Contact](#-support--contact)
